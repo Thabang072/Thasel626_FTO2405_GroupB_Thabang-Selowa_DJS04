@@ -1,5 +1,3 @@
-// utils.js
-
 /**
  * Create a book preview element.
  * @param {Object} book - Book object.
