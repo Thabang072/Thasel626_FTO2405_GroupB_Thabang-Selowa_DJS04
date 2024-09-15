@@ -7,6 +7,8 @@ import { books, authors, genres, BOOKS_PER_PAGE } from './data.js';
 let page = 1;
 let matches = books;
 
+
+
 // Function to update the list of books displayed based on the current page and matches, create a document fragment to hold the book elements
 function updateBookList() {
     
@@ -183,3 +185,5 @@ document.addEventListener('DOMContentLoaded', () => {
     updateBookList(); // Load and display the initial list of books
     setupEventListeners(); // Set up event listeners for UI interactions
 });
+
+
