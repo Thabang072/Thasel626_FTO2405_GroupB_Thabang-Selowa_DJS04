@@ -1,11 +1,11 @@
 // Import necessary modules and functions from different scripts.
 import { books } from './data.js'; // Imports book data from 'data.js'.
-import { updateDropdowns } from './scripts/genre-author-filter.js'; // Imports function to update genre and author dropdowns.
-import { updateTheme, handleSettingsFormSubmit } from './scripts/settings.js'; // Imports functions to update the theme and handle settings form submission.
-import { setupOverlayEventListeners } from './scripts/overlay-management.js'; // Imports function to setup event listeners for overlay management.
-import { handleSearch } from './scripts/book-search.js'; // Imports function to handle search functionality.
-import { loadMoreBooks, setMatches } from './scripts/book-list.js'; // Imports functions to load more books and set book matches.
-import { showBookDetails } from './scripts/book-preview.js'; // Imports function to show details of a selected book.
+import { updateDropdowns } from './component-file/genre-author-filter.js'; // Imports function to update genre and author dropdowns.
+import { updateTheme, handleSettingsFormSubmit } from './component-file/settings.js'; // Imports functions to update the theme and handle settings form submission.
+import { setupOverlayEventListeners } from './component-file/overlay-management.js'; // Imports function to setup event listeners for overlay management.
+import { handleSearch } from './component-file/book-search.js'; // Imports function to handle search functionality.
+import { loadMoreBooks, setMatches } from './component-file/book-list.js'; // Imports functions to load more books and set book matches.
+import { showBookDetails } from './component-file/book-preview.js'; // Imports function to show details of a selected book.
 
 // Wait until the DOM content is fully loaded before executing the script.
 document.addEventListener('DOMContentLoaded', () => {
