@@ -5,7 +5,7 @@ import { genres, authors } from '../data.js';
  * Update dropdown menus for genres and authors by populating them with options.
  * The genres and authors are loaded from the imported data and set in their respective dropdowns.
  */
-export function updateDropdowns() {
+export function handleSearch() {
     // Select the genre dropdown element from the DOM
     const genreSelect = document.querySelector('[data-search-genres]');
     // Populate the genre dropdown with options, including a default 'All Genres' option
